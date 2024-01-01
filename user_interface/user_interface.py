@@ -4,6 +4,8 @@ import sys
 import easygui
 import yaml
 
+from map_reader import map_reader
+
 class UserGui:
     """
     Main user GUI
@@ -48,15 +50,44 @@ class UserGui:
         """
         Menu for when user elects to create a new config
         Prompt user to enter:
+        - event length
         - path to map
-        - path to location to save control coordinates
+        - path to location to save control coordinates and control links
         - path to save config file
         """
+        self._get_text_input()
+
         self._get_map_path()
 
         self._get_control_coords_save_dir()
 
         self._get_config_save_location()
+
+    def _get_text_input(self):
+        """
+        Get text input (event length) for create config option
+        """
+        msg = "Enter Basic Event Details"
+        title = "Event Details"
+        field_names = ["Event Length (hrs)"]
+        field_values = easygui.multenterbox(msg, title, field_names)
+        if field_values is None:
+            return {}
+
+        # make sure that none of the fields were left blank
+        while True:
+            errmsg = ""
+            for i, name in enumerate(field_names):
+                if field_values[i].strip() == "":
+                    errmsg += "{} is a required field.\n\n".format(name)
+            if errmsg == "":
+                break   # all fields were filled in
+            field_values = easygui.multenterbox(errmsg, title, field_names, field_values)
+            if field_values is None:
+                return {}   # user selected <cancel>
+        event_length = field_values[0]
+
+        self.config["event_length"] = float(event_length)
     
     def _get_map_path(self):
         """
@@ -78,7 +109,7 @@ class UserGui:
         self.config["control_coordinates"] = f"{control_coords_dir}/control-coordinates.csv"
 
         # prompt user to select coordinates with gui
-        # self._load_control_coordinates_identification()
+        self._load_control_coordinates_identification()
     
     def _get_config_save_location(self):
         """
