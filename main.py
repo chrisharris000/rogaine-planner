@@ -82,7 +82,6 @@ with open(args.file, "r") as file:
 nodes = data_array.copy()
 
 # Initialize
-#data_array.pop(0)
 sum_distance = 0
 sum_score = 0
 path = ""
@@ -103,8 +102,7 @@ for item in path.split():
     path_str += control_lookup[int(item)] + " "
 print("Optimal Path: \n", path_str)
 
-# PLOTS
-
+# PLOT
 result = [[sublist[0], sublist[1]] for sublist in nodes]
 x_axis_numbers, y_axis_numbers = [], []
 for i in result:
