@@ -36,8 +36,6 @@ def distance_node(node, data_array):
         except ZeroDivisionError:
             distance_list += [9999999]
 
-    # print(distance_list)
-    # breakpoint()
     for i in range(len(data_array)):
         if distance_list[i] == max(distance_list):
             index = i
@@ -87,7 +85,7 @@ nodes = data_array.copy()
 #data_array.pop(0)
 sum_distance = 0
 sum_score = 0
-path = "0 "
+path = ""
 full_data_array = data_array.copy()
 
 # Action
@@ -107,7 +105,6 @@ print("Optimal Path: \n", path_str)
 
 # PLOTS
 
-#nodes.pop(0)
 result = [[sublist[0], sublist[1]] for sublist in nodes]
 x_axis_numbers, y_axis_numbers = [], []
 for i in result:
@@ -121,7 +118,7 @@ for i in path_list_1:
 
 for i in range(len(path_list_1)):
     control_name = str(control_lookup[path_list_1[i]])
-    plt.text(plot_1_x[i], plot_1_y[i], control_name, ha = "center", va = "bottom", color = "Black")
+    plt.text(plot_1_x[i], plot_1_y[i], control_name, ha = "center", va = "bottom", color = "Black", weight="bold")
 
 plt.plot(plot_1_x, plot_1_y, color = "green", linestyle = "dashed", linewidth = 3, marker = "o", markerfacecolor = "blue", markersize = 12)
 plt.xlabel("x - axis")
