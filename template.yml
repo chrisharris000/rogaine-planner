@@ -1,0 +1,9 @@
+max_distance: 2500  # distance in `units` that you are happy to travel
+start_x_coord: 607  # x coordinate in `units` of HH
+start_y_coord: 819  # y coordinate in `units` of HH
+
+# list of controls
+controls:
+  - id: 81  # unique identifier of control
+    x_coord: 110  # x coordinate in `units` of control
+    y_coord: 161  # y coordinate in `units` of control
