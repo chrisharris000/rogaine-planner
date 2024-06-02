@@ -16,6 +16,15 @@ Rogaine Planner is a tool to plan a route given the location of a set of control
 1. `python3 main.py --file path/to/completed-template.yml`  
 Script will produced text output with distance of the route, points accumulated on the route and the route itself. A window will open with a visual representation of the route.
 
+# Output
+Example based on the map of the [Parna-roo-gaine event](https://sarogaining.com.au/event/15-8-hour-roving-2024/).
+```Distance: 62.49
+Maximum Score: 1300
+Optimal Path:
+HH 76 31 84 42 60 82 52 70 50 90 80 40 81 72 51 54 62 32 44 65 61 66
+```
+![sample output](example/sample-output.png)
+
 # Explantion
 The task of planning a route for a rogaine is an example of the [**Orienteering Problem**](https://www.sciencedirect.com/topics/mathematics/orienteering-problem)
 > In the orienteering problem (also known as the “bank robber” problem, or the “generalized TSP”), the traveling salesperson is allowed to travel at most a distance B, and has the objective to maximize the number of sites that they can visit, subject to the distance constraint.  
