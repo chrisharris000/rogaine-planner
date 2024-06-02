@@ -17,7 +17,7 @@ Rogaine Planner is a tool to plan a route given the location of a set of control
 Script will produced text output with distance of the route, points accumulated on the route and the route itself. A window will open with a visual representation of the route.
 
 # Output
-Example based on the map of the [Parna-roo-gaine event](https://sarogaining.com.au/event/15-8-hour-roving-2024/).
+Example based on the map of the [Parna-roo-gaine event](https://sarogaining.com.au/event/15-8-hour-roving-2024/). In the example, the unit of measurement is cm as measured on the A3 map provided as part of the event, referenced from the bottom left corner of the border. The scale of the map provided for the event was 1:40 000, meaning a `max_distance` of `65` (cm) is 26km real distance.
 ```Distance: 62.49
 Maximum Score: 1300
 Optimal Path:
