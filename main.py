@@ -91,16 +91,16 @@ full_data_array = data_array.copy()
 distance_node(data_array[0], data_array[1:])
 
 # Printing result
-print("*** Dijkstra ***")
-print("Distance: ", sum_distance)
-print("Maximum Score: ", sum_score)
+print(f"Distance: {sum_distance:.2f}")
+print(f"Maximum Score: {sum_score}")
 path_list_1 = [int(item) for item in path.split()]
 # append start location to end to make closed loop
 path_list_1.append(path_list_1[0])
 path_str = ""
 for item in path.split():
     path_str += control_lookup[int(item)] + " "
-print("Optimal Path: \n", path_str)
+print("Optimal Path:")
+print(path_str.lstrip())
 
 # PLOT
 result = [[sublist[0], sublist[1]] for sublist in nodes]
