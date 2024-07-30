@@ -1,0 +1,167 @@
+max_distance: 2500
+start_x_coord: 607
+start_y_coord: 819
+
+controls:
+  - id: 80
+    x_coord: 110
+    y_coord: 161
+  - id: 39
+    x_coord: 259
+    y_coord: 230
+  - id: 33
+    x_coord: 443
+    y_coord: 263
+  - id: 54
+    x_coord: 356
+    y_coord: 381
+  - id: 49
+    x_coord: 232
+    y_coord: 421
+  - id: 72
+    x_coord: 102
+    y_coord: 380
+  - id: 43
+    x_coord: 110
+    y_coord: 503
+  - id: 32
+    x_coord: 241
+    y_coord: 552
+  - id: 53
+    x_coord: 281
+    y_coord: 650
+  - id: 73
+    x_coord: 366
+    y_coord: 131
+  - id: 63
+    x_coord: 567
+    y_coord: 220
+  - id: 44
+    x_coord: 527
+    y_coord: 361
+  - id: 82
+    x_coord: 479
+    y_coord: 524
+  - id: 52
+    x_coord: 621
+    y_coord: 510
+  - id: 42
+    x_coord: 484
+    y_coord: 640
+  - id: 62
+    x_coord: 166
+    y_coord: 707
+  - id: 31
+    x_coord: 257
+    y_coord: 765
+  - id: 41
+    x_coord: 252
+    y_coord: 881
+  - id: 71
+    x_coord: 373
+    y_coord: 865
+  - id: 61
+    x_coord: 446
+    y_coord: 787
+  - id: 70
+    x_coord: 843
+    y_coord: 118
+  - id: 59
+    x_coord: 740
+    y_coord: 171
+  - id: 77
+    x_coord: 657
+    y_coord: 297
+  - id: 20
+    x_coord: 849
+    y_coord: 351
+  - id: 76
+    x_coord: 909
+    y_coord: 482
+  - id: 38
+    x_coord: 806
+    y_coord: 548
+  - id: 91
+    x_coord: 845
+    y_coord: 637
+  - id: 47
+    x_coord: 923
+    y_coord: 244
+  - id: 48
+    x_coord: 968
+    y_coord: 592
+  - id: 30
+    x_coord: 588
+    y_coord: 749
+  - id: 22
+    x_coord: 719
+    y_coord: 786
+  - id: 34
+    x_coord: 945
+    y_coord: 781
+  - id: 60
+    x_coord: 839
+    y_coord: 863
+  - id: 55
+    x_coord: 969
+    y_coord: 892
+  - id: 35
+    x_coord: 901
+    y_coord: 974
+  - id: 64
+    x_coord: 958
+    y_coord: 1052
+  - id: 75
+    x_coord: 832
+    y_coord: 1051
+  - id: 58
+    x_coord: 964
+    y_coord: 1165
+  - id: 36
+    x_coord: 791
+    y_coord: 1198
+  - id: 65
+    x_coord: 658
+    y_coord: 938
+  - id: 21
+    x_coord: 522
+    y_coord: 854
+  - id: 45
+    x_coord: 526
+    y_coord: 989
+  - id: 90
+    x_coord: 539
+    y_coord: 1151
+  - id: 67
+    x_coord: 102
+    y_coord: 852
+  - id: 51
+    x_coord: 270
+    y_coord: 972
+  - id: 46
+    x_coord: 90
+    y_coord: 1086
+  - id: 37
+    x_coord: 380
+    y_coord: 1102
+  - id: 74
+    x_coord: 93
+    y_coord: 1438
+  - id: 40
+    x_coord: 185
+    y_coord: 1370
+  - id: 56
+    x_coord: 362
+    y_coord: 1278
+  - id: 66
+    x_coord: 423
+    y_coord: 1446
+  - id: 57
+    x_coord: 610
+    y_coord: 1347
+  - id: 50
+    x_coord: 755
+    y_coord: 1326
+  - id: 81
+    x_coord: 157
+    y_coord: 1210

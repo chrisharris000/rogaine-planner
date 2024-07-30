@@ -1,0 +1,159 @@
+max_distance: 65  # distance in `cm` that you are happy to travel
+start_x_coord: 13.7  # x coordinate in `cm` of HH
+start_y_coord: 17.0  # y coordinate in `cm` of HH
+
+# list of controls
+controls:
+  - id: 75
+    x_coord: 10.6
+    y_coord: 4.5
+  - id: 93
+    x_coord: 17.6
+    y_coord: 4.5
+  - id: 48
+    x_coord: 15.6
+    y_coord: 5.1
+  - id: 92
+    x_coord: 4
+    y_coord: 7.4
+  - id: 36
+    x_coord: 7.8
+    y_coord: 7.4
+  - id: 56
+    x_coord: 12.2
+    y_coord: 7.6
+  - id: 47
+    x_coord: 15.5
+    y_coord: 7.5
+  - id: 74
+    x_coord: 5.3
+    y_coord: 10.3
+  - id: 35
+    x_coord: 11.1
+    y_coord: 9.8
+  - id: 24
+    x_coord: 17.0
+    y_coord: 9.7
+  - id: 46
+    x_coord: 15.0
+    y_coord: 11.4
+  - id: 73
+    x_coord: 19.8
+    y_coord: 12.8
+  - id: 45
+    x_coord: 7.8
+    y_coord: 13.6
+  - id: 33
+    x_coord: 11.0
+    y_coord: 13.4
+  - id: 66
+    x_coord: 14.3
+    y_coord: 14.2
+  - id: 34
+    x_coord: 3.7
+    y_coord: 14.9
+  - id: 64
+    x_coord: 23.0
+    y_coord: 14.9
+  - id: 65
+    x_coord: 19.0
+    y_coord: 15.7
+  - id: 53
+    x_coord: 11.2
+    y_coord: 16.8
+  - id: 61
+    x_coord: 17.0
+    y_coord: 17.0
+  - id: 91
+    x_coord: 7.3
+    y_coord: 18.0
+  - id: 23
+    x_coord: 16.0
+    y_coord: 17.9
+  - id: 71
+    x_coord: 3.6
+    y_coord: 19.2
+  - id: 76
+    x_coord: 13.0
+    y_coord: 18.9
+  - id: 44
+    x_coord: 21.0
+    y_coord: 19.0
+  - id: 30
+    x_coord: 11.1
+    y_coord: 19.7
+  - id: 63
+    x_coord: 26.3
+    y_coord: 19.6
+  - id: 31
+    x_coord: 13.7
+    y_coord: 20.2
+  - id: 22
+    x_coord: 16.5
+    y_coord: 20.2
+  - id: 32
+    x_coord: 22.0
+    y_coord: 20.9
+  - id: 83
+    x_coord: 7.0
+    y_coord: 22.6
+  - id: 84
+    x_coord: 14.9
+    y_coord: 23.0
+  - id: 62
+    x_coord: 22.5
+    y_coord: 22.9
+  - id: 55
+    x_coord: 26.5
+    y_coord: 23.0
+  - id: 42
+    x_coord: 13.2
+    y_coord: 23.6
+  - id: 41
+    x_coord: 18.1
+    y_coord: 23.7
+  - id: 54
+    x_coord: 20.6
+    y_coord: 23.6
+  - id: 43
+    x_coord: 16.0
+    y_coord: 24.6
+  - id: 72
+    x_coord: 21.5
+    y_coord: 25.5
+  - id: 21
+    x_coord: 9.2
+    y_coord: 26.0
+  - id: 70
+    x_coord: 17.4
+    y_coord: 26.6
+  - id: 51
+    x_coord: 20.3
+    y_coord: 27.0
+  - id: 81
+    x_coord: 26.3
+    y_coord: 26.5
+  - id: 60
+    x_coord: 12.6
+    y_coord: 27.4
+  - id: 52
+    x_coord: 15.2
+    y_coord: 27.3
+  - id: 20
+    x_coord: 26.0
+    y_coord: 28.4
+  - id: 50
+    x_coord: 18.3
+    y_coord: 29.0
+  - id: 82
+    x_coord: 15.4
+    y_coord: 30.2
+  - id: 90
+    x_coord: 21.0
+    y_coord: 30.3
+  - id: 40
+    x_coord: 23.6
+    y_coord: 30.5
+  - id: 80
+    x_coord: 22.5
+    y_coord: 32.0
