@@ -1,0 +1,204 @@
+max_distance: 3456  # max planned distance in `px` (map scale, 1km=128px)
+start_x_coord: 896  # x coordinate in `px` of HH
+start_y_coord: 896  # y coordinate in `px` of HH
+
+# list of controls
+controls:
+  - id: 35
+    x_coord: 132
+    y_coord: 897
+  - id: 77
+    x_coord: 91
+    y_coord: 1119
+  - id: 57
+    x_coord: 246
+    y_coord: 1038
+  - id: 78
+    x_coord: 321
+    y_coord: 906
+  - id: 26
+    x_coord: 454
+    y_coord: 1094
+  - id: 37
+    x_coord: 411 
+    y_coord: 1197
+  - id: 74
+    x_coord: 185
+    y_coord: 1226
+  - id: 93
+    x_coord: 80
+    y_coord: 1340
+  - id: 31
+    x_coord: 273
+    y_coord: 1366
+  - id: 76
+    x_coord: 446
+    y_coord: 1333
+  - id: 58
+    x_coord: 700
+    y_coord: 1328
+  - id: 73
+    x_coord: 679
+    y_coord: 1157
+  - id: 32
+    x_coord: 642
+    y_coord: 1042
+  - id: 54
+    x_coord: 898
+    y_coord: 1179
+  - id: 29
+    x_coord: 543
+    y_coord: 923
+  - id: 75
+    x_coord: 578
+    y_coord: 745
+  - id: 47
+    x_coord: 700
+    y_coord: 857
+  - id: 21
+    x_coord: 816
+    y_coord: 806
+  - id: 80
+    x_coord: 735
+    y_coord: 983
+  - id: 25
+    x_coord: 912
+    y_coord: 863
+  - id: 22
+    x_coord: 804
+    y_coord: 638
+  - id: 20
+    x_coord: 934
+    y_coord: 674
+  - id: 71
+    x_coord: 976
+    y_coord: 495
+  - id: 34
+    x_coord: 1068
+    y_coord: 372
+  - id: 42
+    x_coord: 1200
+    y_coord: 216
+  - id: 81
+    x_coord: 1212
+    y_coord: 379
+  - id: 45
+    x_coord: 1136
+    y_coord: 497
+  - id: 23
+    x_coord: 1141
+    y_coord: 665
+  - id: 30
+    x_coord: 1037
+    y_coord: 784
+  - id: 51
+    x_coord: 1237
+    y_coord: 778
+  - id: 40
+    x_coord: 1037
+    y_coord: 949
+  - id: 64
+    x_coord: 1204
+    y_coord: 935
+  - id: 36
+    x_coord: 986
+    y_coord: 1099
+  - id: 24
+    x_coord: 1031
+    y_coord: 1224
+  - id: 70
+    x_coord: 1116
+    y_coord: 1064
+  - id: 65
+    x_coord: 1195
+    y_coord: 1217
+  - id: 61
+    x_coord: 1177
+    y_coord: 1375
+  - id: 83
+    x_coord: 831
+    y_coord: 1401
+  - id: 68
+    x_coord: 973
+    y_coord: 1360
+  - id: 28
+    x_coord: 1150
+    y_coord: 1449
+  - id: 63
+    x_coord: 1272
+    y_coord: 1499
+  - id: 39
+    x_coord: 1377
+    y_coord: 1548
+  - id: 56
+    x_coord: 1348
+    y_coord: 1409
+  - id: 55
+    x_coord: 1523
+    y_coord: 1491
+  - id: 33
+    x_coord: 1453
+    y_coord: 1335
+  - id: 53
+    x_coord: 1436
+    y_coord: 1191
+  - id: 91
+    x_coord: 1589
+    y_coord: 1207
+  - id: 60
+    x_coord: 1677
+    y_coord: 1323
+  - id: 48
+    x_coord: 1330
+    y_coord: 1116
+  - id: 82
+    x_coord: 1506
+    y_coord: 1032
+  - id: 67
+    x_coord: 1434
+    y_coord: 926
+  - id: 43
+    x_coord: 1526
+    y_coord: 785
+  - id: 100
+    x_coord: 1414
+    y_coord: 735
+  - id: 44
+    x_coord: 1701
+    y_coord: 766
+  - id: 46
+    x_coord: 1642
+    y_coord: 637
+  - id: 38
+    x_coord: 1383
+    y_coord: 552
+  - id: 66
+    x_coord: 1423
+    y_coord: 377
+  - id: 90
+    x_coord: 1392
+    y_coord: 174
+  - id: 62
+    x_coord: 1804
+    y_coord: 551
+  - id: 92
+    x_coord: 1906
+    y_coord: 743
+  - id: 72
+    x_coord: 1884
+    y_coord: 909
+  - id: 50
+    x_coord: 1713
+    y_coord: 1013
+  - id: 49
+    x_coord: 1933
+    y_coord: 1046
+  - id: 41
+    x_coord: 1835
+    y_coord: 1124
+  - id: 27
+    x_coord: 1773
+    y_coord: 1120
+  - id: 52
+    x_coord: 1729
+    y_coord: 1192
