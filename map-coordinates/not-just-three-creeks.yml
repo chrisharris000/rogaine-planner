@@ -1,6 +1,6 @@
 max_distance: 3456  # max planned distance in `px` (map scale, 1km=128px)
 start_x_coord: 896  # x coordinate in `px` of HH
-start_y_coord: 896  # y coordinate in `px` of HH
+start_y_coord: 744  # y coordinate in `px` of HH
 
 # list of controls
 controls:
